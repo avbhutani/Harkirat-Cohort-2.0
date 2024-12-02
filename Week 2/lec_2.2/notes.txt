@@ -1,0 +1,12 @@
+ecmascript is basically a set of rules, that are basically, followed by a set of languages.
+js follows this
+
+
+runs on js engine: 
+v8 and spidermonkey 
+
+nodejs is just a runtime, which runs the js code on the backend
+reactjs is a frontend library
+
+bun is a competitor to nodejs 
+bun is written in zig

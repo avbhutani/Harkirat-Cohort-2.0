@@ -1,0 +1,6 @@
+promisified vs non-promisified functions.
+
+non promisified functions don't return a promise but take the callback as an input
+that means basically it calls some other function.
+
+promisified functions don't take anything as input but returns a promise.

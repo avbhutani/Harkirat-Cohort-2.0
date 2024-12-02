@@ -1,0 +1,10 @@
+str.slice(string,startIndex,endIndex)
+str.indexOf(string1,pattern)
+
+targetString.replace(stringToBeReplaced, stringWhichReplaces)
+
+
+static methods and objects are not associated with any of the objects and rather
+associated with a class.
+
+You can call the static methods and attributes on the class itself.

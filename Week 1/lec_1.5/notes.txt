@@ -1,0 +1,23 @@
+- callbacks
+- event loop, callback queue,call stack and webapi's
+
+// Analogy about JS
+
+Interesting thing to note here is that, the human brain is also single threaded.
+but it can either context switch between tasks or it can delegate the task to someone else.
+and whenver it is free, it can receive the task from another person.
+
+
+Just like this, JS also, can perform one task at a time, but it can also,
+context switch between tasks, and delegate the tasks to different web APIs or so,
+so overall it can also do multiple tasks at once.
+
+
+
+use this for deeper understanding of the JS architecture.
+http://latentflip.com/loupe/?code=Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpCgovLyBpdCBsZXRzIHlvdSByZWFkIHRoZSBkYXRhIGZyb20gdGhlIGZpbGUuCi8vIHRoaXMgaXMgYW4gYXN5bmMgZnVuY3Rpb24sIHRoaXMgd2lsbCBiZSBkZWxlZ2F0ZWQgdG8gc29tZW9uZSBlbHNlLgpmcy5yZWFkRmlsZSgnLi9ub3Rlcy50eHQnLCd1dGYtOCcsKGVycixkYXRhKT0%2BIHsKICAgIGNvbnNvbGUubG9nKGRhdGEpCn0pCgoKY29uc29sZS5sb2coJ0hpIHRoZXJlLicpCmxldCBzdW0gPSAwOwpmb3IobGV0IGkgPSAwO2k8MTAwMDAwMDA7aSsrKSB7CiAgICBzdW0gKz0gaTsKfQpjb25zb2xlLmxvZyhzdW0pOwovLyBzbyB3aGVuIHRoZSBtYWluIHRocmVhZCB3aWxsIGdldCBmcmVlLCB0aGVuIG9ubHksIHRoZSBzdW0gd2lsbCBnZXQgcHJpbnRlZC4%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+
+4 things, callstack, webapi's, event loop and callback queue.
+
+all the actions that will be done by the webapi's gets pushed back into the callback queue and
+then whenever the thread is free, then the callback queue takes over to the call stack.

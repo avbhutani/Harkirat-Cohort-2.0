@@ -1,0 +1,5 @@
+Consider a middleware as the precheck thing that exist in real world system,
+maybe you are told to fill a form first to enter, check your id or maybe anything,
+so anything that requires a precheck, requires a middleware.
+
+2 things mainly are validated from the input,

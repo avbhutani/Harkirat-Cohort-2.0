@@ -1,0 +1,2 @@
+- Interpreted (code -> executable) vs Compiled (Code-> Binary -> executable)
+ 
