@@ -2,4 +2,7 @@ Consider a middleware as the precheck thing that exist in real world system,
 maybe you are told to fill a form first to enter, check your id or maybe anything,
 so anything that requires a precheck, requires a middleware.
 
-2 things mainly are validated from the input,
+2 things mainly are validated from the input
+- If the user is authenticated or not, i.e, logged in or not.
+- If the user has passed valid parameters for accessing the API. (New Learning)
+These are the most important scenarios where a middleware is used.
